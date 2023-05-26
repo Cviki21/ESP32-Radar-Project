@@ -15,7 +15,14 @@ Ultrasonic Sensor:
 Trig Pin: 13
 Echo Pin: 14
 Micro Servo Motor: 16
-TFT Display: 
+TFT Display: TFT_MISO 26
+ TFT_MOSI 23
+ TFT_SCLK 18
+ TFT_CS   19  // Chip select control pin
+ TFT_DC    2  // Data Command control pin
+ TFT_RST   4 
+
+
 Installation
 To set up the ESP32 radar project, follow these steps:
 
